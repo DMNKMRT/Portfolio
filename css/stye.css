@@ -48,12 +48,20 @@ img{
     max-width: 100%;
 }
 
+section{
+    padding: 5em 2em; 
+}
+
+strong{
+    font-weight: var(--fw-bold);
+}
+
 /*Typography*/
 
 h1,
 h2,
 h3{
-    line-height: 1.1;
+    line-height: 1;
     margin: 0;
 }
 
@@ -76,6 +84,10 @@ h3{
     font-weight: var();
 }
 
+.section_title_intro strong{
+    display: block;
+}
+
 .section_subtitle{
     margin: 0;
     font-size: var(--fs-h3);
@@ -85,8 +97,28 @@ h3{
 .section_subtitle_about{
     background: var(--clr-accent);
     font-family: var(--ff-secondary);
+    margin-bottom: 1em;
 }
 
+.nav{
+    display: none;
+}
+.intro{
+    position: relative;
+}
 
+@media (min-width: 600px) {
+    .intro{
+        display: grid;
+        grid-column-gap: 1em ;
+        grid-template-areas: 
+            "img title"
+            "img subtitle";
+        grid-template-columns: min-content max-content;    
 
-test 
+    }
+    .intro_img{
+        grid-area: img;  
+        min-width: 250px;
+    }
+}
