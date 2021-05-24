@@ -13,8 +13,9 @@
     --fw-bold: 900;
 
     --clr-light: #fff;
+    --clr-background: #3080A3; 
     --clr-dark: #303030;
-    --clr-accent: #16e0bd;
+    --clr-accent: #365770;
 
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -37,8 +38,8 @@
 /* Allgemeiner Stil*/
 
 body {
-    background: var(--clr-light);
-    color: var(--clr-dark);
+    background: var(--clr-background);
+    color: var(--clr-light);
     margin: 0;
     font-family: var(--ff-primary);
     font-size: var(--fs-body);
@@ -77,6 +78,12 @@ h3{
     font-size: var(--fs-h3);
 }
 
+.top_bar{
+    border: 1px solid var(--clr-accent); 
+    background-color: var(--clr-accent);
+    padding: 13px;
+}
+
 
 .section_title{
     margin-bottom: .25em;
@@ -96,7 +103,7 @@ h3{
 }
 
 .section_subtitle_intro,
-.section_subtitle_about{
+.section_subtitle_skills{
     background: var(--clr-accent);
     padding: .25em 1em; 
     font-family: var(--ff-secondary);
@@ -150,21 +157,21 @@ h3{
 
 /* Work section*/
 
-.my_work{
+.about_me{
     background-color: var(--clr-accent);
-    background-image: url(../img/test_wallpaper.jpg);
+    background-image: url(../img/Blue-Illustrated-Landscape-Mountains-Wallpaper-Mural-820x532.jpg);
     background-size: cover;
     background-blend-mode: multiply;
     color: var(--clr-light);
 text-align: center;
 }
 
-.section_title_my_work{
+.section_title_about_me{
     color: var(--clr-light);
     position: relative;
 }
 
-.section_title_my_work::after{
+.section_title_about_me::after{
     content: '';
     display: block;
     width: 3em;
@@ -175,7 +182,7 @@ text-align: center;
 }
 
 @media (min-width: 800px){
-    .work{
+    .about{
         display: flex;
         max-width: 1000px;
         margin: 0 auto;
