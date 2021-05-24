@@ -79,9 +79,48 @@ h3{
 }
 
 .top_bar{
-    border: 1px solid var(--clr-accent); 
+ 
     background-color: var(--clr-accent);
-    padding: 13px;
+
+    display: flex;
+    
+    
+}
+
+/* Das ist der Text "dominik martin" links in der topbar */
+.dm{
+    float: left;
+    width: 70%;
+    font-family: var(--ff-secondary);
+    font-size: var(--fs-body) ;
+    padding: 1em;
+    margin-left: 1em;
+
+}
+
+.menu_home{
+    float: right;
+    width: 25%;
+    font-family: var(--ff-primary);
+    font-size: var(--fs-body);
+    padding: 1em;
+
+}
+
+.menu_about_me{
+    float: right;
+    width: 25%;
+    font-family: var(--ff-primary);
+    font-size: var(--fs-body);
+    padding: 1em;
+}
+
+.menu_skills{
+    float: right;
+    width: 25%;
+    font-family: var(--ff-primary);
+    font-size: var(--fs-body);
+    padding: 1em;
 }
 
 
