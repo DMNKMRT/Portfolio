@@ -81,9 +81,7 @@ h3{
 .top_bar{
  
     background-color: var(--clr-accent);
-
     display: flex;
-    
     
 }
 
@@ -101,11 +99,16 @@ h3{
 /* Das ist das Menu oben rechts in der topbar*/
 .menu_home{
     float: right;
-    width: 10%;
+    width: 8%;
     font-family: var(--ff-primary);
     font-size: var(--fs-body);
+    color: red; 
     padding: 1em;
 
+}
+.menu_home1{
+    color: var(--clr-light);;
+    text-decoration: none;
 }
 
 .menu_about_me{
@@ -116,12 +119,22 @@ h3{
     padding: 1em;
 }
 
+.menu_about_me1{
+    color: var(--clr-light);
+    text-decoration: none;
+}
+
 .menu_skills{
     float: right;
     width: 10%;
     font-family: var(--ff-primary);
     font-size: var(--fs-body);
     padding: 1em;
+}
+
+.menu_skills1{
+    color: var(--clr-light);
+    text-decoration: none;
 }
 
 
