@@ -208,15 +208,14 @@ h3{
     }
 }
 
-/* Work section*/
 
 .about_me{
-    background-color: var(--clr-accent);
-    background-image: url(../img/Blue-Illustrated-Landscape-Mountains-Wallpaper-Mural-820x532.jpg);
+    
+    background-image:url(../img/Blue-Illustrated-Landscape-Mountains-Wallpaper-Mural-820x532.jpg), linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(48,128,163,1) 34%, rgba(48,128,163,1) 100%);
     background-size: cover;
     background-blend-mode: multiply;
     color: var(--clr-light);
-text-align: center;
+    text-align: center;
 }
 
 .section_title_about_me{
@@ -234,8 +233,10 @@ text-align: center;
     opacity: 0.25;
 }
 
+
 @media (min-width: 800px){
     .about{
+  
         display: flex;
         max-width: 1000px;
         margin: 0 auto;
