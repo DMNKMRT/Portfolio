@@ -98,9 +98,10 @@ h3{
 
 }
 
+/* Das ist das Menu oben rechts in der topbar*/
 .menu_home{
     float: right;
-    width: 25%;
+    width: 10%;
     font-family: var(--ff-primary);
     font-size: var(--fs-body);
     padding: 1em;
@@ -109,7 +110,7 @@ h3{
 
 .menu_about_me{
     float: right;
-    width: 25%;
+    width: 10%;
     font-family: var(--ff-primary);
     font-size: var(--fs-body);
     padding: 1em;
@@ -117,7 +118,7 @@ h3{
 
 .menu_skills{
     float: right;
-    width: 25%;
+    width: 10%;
     font-family: var(--ff-primary);
     font-size: var(--fs-body);
     padding: 1em;
